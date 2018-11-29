@@ -1,0 +1,5 @@
+n = input()
+num = int(raw_input()).split(" ")
+t = tuple(num)
+print (t)
+print (hash(t))

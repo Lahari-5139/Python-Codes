@@ -1,0 +1,7 @@
+year = int()
+def is_leap(year):
+    if (year%4==0):
+        return(True)
+    else:
+        return(False)
+print is_leap(year)
